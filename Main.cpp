@@ -424,7 +424,7 @@ void createControls(HWND hWndParent)
 	(
 		NULL,
 		L"STATIC",
-		L"| OR: ",
+		L"&&AND: ",
 		WS_CHILD | WS_VISIBLE | SS_RIGHT | SS_CENTERIMAGE,
 		clientSizePadding.x, // X
 		rect.bottom + clientSizePadding.y, // Y
@@ -478,7 +478,7 @@ void createControls(HWND hWndParent)
 	(
 		NULL,
 		L"STATIC",
-		L"&& AND: ",
+		L"|OR: ",
 		WS_CHILD | WS_VISIBLE | SS_RIGHT | SS_CENTERIMAGE,
 		clientSizePadding.x, // X
 		rect.bottom + (clientSizePadding.y * 4), // Y
